@@ -47,6 +47,8 @@ p{
 
 #restart {
   background-color: cornflowerblue;
+  border: 1px solid;
+  border-color: red;
   color: white;
   margin-top: 15px;
   padding: 10px 20px;
