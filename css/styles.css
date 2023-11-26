@@ -1,17 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime&family=Inter&family=Quicksand:wght@300;400&family=Raleway&family=Roboto:ital,wght@0,300;1,100&family=Shadows+Into+Light&display=swap');
+
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f0f0f0;
+  font-family: 'Courier Prime', monospace;
+  background-color: #d1cece;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#countdown {
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin: 15px;
 }
 
 h1 {
-  color: #333;
+  color: #212020;
+}
+
+p{
+  color:#525050;
 }
 #result .green {
   color: #2ecc71;
 }
 
-#result .red {
-  color: #e74c3c;
+#result.success {
+  color: green;
+}
+
+#result.failure {
+  color: red;
+}
+
+#userInput {
+  color:cornflowerblue;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+#restart {
+  background-color: cornflowerblue;
+  color: white;
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
